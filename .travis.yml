@@ -18,7 +18,7 @@ jobs:
         - gem --version
       - name: Bundle install
         run: |
-          gem install bundler
+          gem install bundler 2.2.3
           bundle install --jobs 4 --retry 3
       - name: Rubocop
         run: bundle exec rubocop
