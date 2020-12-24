@@ -1,5 +1,5 @@
 name: Unit Tests & Lint
-
+language: ruby
 on: [push, pull_request, workflow_dispatch]
 
 jobs:

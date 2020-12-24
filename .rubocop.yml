@@ -4,6 +4,7 @@ AllCops:
 Naming/AccessorMethodName:
   Exclude:
     - 'csv_task/lib/file_statistic/stat_getter.rb'
+    - 'csv_task/lib/file_statistic/file_stat.rb'
 
 Style/Documentation:
   Enabled: false
