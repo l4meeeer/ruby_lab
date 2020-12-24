@@ -1,0 +1,18 @@
+AllCops:
+  NewCops: enable
+
+Naming/AccessorMethodName:
+  Exclude:
+    - 'csv_task/lib/file_statistic/stat_getter.rb'
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 20
+
+Metrics/BlockLength:
+  Max: 40
