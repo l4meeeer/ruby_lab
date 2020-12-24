@@ -10,6 +10,7 @@ GEM
     parser (2.7.2.0)
       ast (~> 2.4.1)
     rainbow (3.0.0)
+    rake (13.0.3)
     regexp_parser (2.0.1)
     rexml (3.2.4)
     rspec (3.10.0)
@@ -51,6 +52,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   fastercsv
+  rake
   rspec
   rubocop
   simplecov
